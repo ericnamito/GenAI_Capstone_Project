@@ -36,8 +36,11 @@ A lower value on every index indicates simpler, more readable text.
 │   ├── legal_plain_language_pipeline.ipynb   # Main pipeline notebook
 │   └── criteria.md                           # Plain-language simplification rules (Romanian)
 ├── data/                                     # Input: Romanian Official Gazette PDFs
-├── simplified_docs/                          # Output: simplified PDFs (generated, not tracked)
+├── simplified_docs/                          # Output: simplified PDFs
+├── untested_doc/                             # Extra input PDF not yet run through the pipeline
 ├── prompts/                                  # Prompt design documents and deep-report outputs
+├── presentation/                             # Project presentation
+├── questionnaires/                           # Evaluation forms (original vs. simplified)
 ├── .gitignore
 └── README.md
 ```
